@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        } 
+        nav{
+            background-color: rgb(199, 120, 91);
+            padding: 3px;
+            margin: 10px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+        } 
+        nav >a{
+            background-color: white;
+            color: black;
+            margin-left: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            
+        } 
+        nav >a:hover{
+            text-decoration: underline;
+            background-color: rgb(212, 212, 40);
+           
+        } 
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px 0px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+        }  
+        article{
+            background-color: darkgrey;
+            padding: 5px;
+        } 
+        article >aside{
+            background-color: burlywood;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            
+        }
+        footer >p{
+            margin: 0px;
+        } 
+        #caixabola{
+            display: block;
+            height: 120px;
+           
+            margin: 10px;       
+            background-color: rgb(199, 120, 91);
+        } 
+        .bola{
+            display: inline-block;
+            height: 100px;
+            width: 100px;           
+            border-radius: 50%;
+            margin: 10px;                             
+            background-color: rgba(255, 187, 0, 0.61);
+        } 
+        
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu Site</h1>
+<nav>
+    <a href="#">Menu</a>
+    <a href="#">Suporte</a>
+    <a href="#">Contato</a>
+    <a href="#">Serviços</a>
+
+</nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Tecnologia / Ciência</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil!</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique maiores esse suscipit eos atque vero dolorum laudantium nulla quod repellat dolor nam amet quibusdam et perspiciatis consequatur ratione, earum illo. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet inventore voluptate neque dolores deleniti cum necessitatibus repudiandae veniam mollitia nostrum placeat, officia non! Animi, ducimus! Odit id tenetur perferendis porro.</p>
+                <aside>
+<p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+<p>Desenvolvido por D'Luca Store</p>
+    </footer>
+    
+    <div id="caixabola">
+        <div class="bola"></div>
+        <div class="bola"></div>
+        <div class="bola"></div>
+    </div>    
+    
+</body>
+</html>

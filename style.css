@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Idroid' ;
+    src: url('pacote-projeto-d010/fontes/idroid.otf')format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family:'Bebas' ;
+    src: url('Bebas_Neue/BebasNeue-Regular.ttf')format('opentype');
+}
+body{
+    display:block;
+    background-color:rgb(76, 248, 191);
+    margin: -20px 0px 0px 0px ; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+       
+}
+header{ 
+    height: 200px;       
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(180deg, #69e769,#1c6313);
+    color: white;
+    padding-top: 20px;
+    
+}
+#titulo{
+    font-size:35px;
+    font-family:'Bebas', Times, serif;
+    color: white;
+}
+h1{   
+    font-family: 'Idroid', Times, serif;
+    color: #2a921c;
+    margin-left: 15px;
+    padding-top: 15px;
+   
+}
+h2{
+    font-family: 'Idroid', Times, serif;
+    color: #2a921c;
+    background-image: linear-gradient(90deg, rgba(122, 233, 233, 0.452),white);
+    margin-left: 15px;
+    padding-left: 10px; 
+}
+p{
+    padding: 0px 15px 0px 15px;
+    text-indent: 30px;
+    
+}
+nav{
+    text-align: left;
+}
+nav>a{    
+    color: white;
+    margin: 15px;    
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 3px 5px;
+    border-radius: 10px;    
+}
+.link{
+    text-decoration: none;
+    
+    color:#2a921c;
+    font-weight: bold;
+}
+a:hover{
+    background-color: #1c5e14;
+   
+   
+}
+main{    
+  
+    background-color: white;
+    margin: -20px 180px 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425);
+}
+picture{
+    margin: 0px 15px 0px 15px;
+}
+img{ 
+  width: 96%;  
+       
+}
+#android{
+    width: 40%;
+    margin-left: 25%;
+
+}
+#video{
+    background-color: #1c6313;
+    
+}
+iframe{
+    width: 88%;
+    margin: 15px 40px 15px 40px;
+    
+}
+#quermais{
+    height: 30px;     
+    background:#2a921ca6;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight:bolder;
+    padding-top: 10px;
+    text-indent: -5px;
+    font-size: 18px;
+   
+}  
+ol{
+    display:inline-block;    
+    list-style-image: url(check.png);
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+#jelly{
+   
+   margin-left: 140px;
+}
+
+div{
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(95, 200, 226, 0.349);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+footer{
+    height: 25px;
+    background-color: #1c6313;
+    color: white;
+    text-align: center;    
+}
+#sitecriado{
+    padding-top: 5px;   
+    font-size: 14px;
+}
+span{
+    color:#2a921c;
+    font-weight: bold;
+}
+.sitefinal{
+font-style: italic;
+font-weight: bold;
+color:#69e769;
+}
+.linktipo{
+    color: black; 
+      
+}
+.linktipo:hover{
+    background-color: #2a921c;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;    
+    
+}
+
+
